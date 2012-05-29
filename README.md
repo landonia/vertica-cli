@@ -14,7 +14,7 @@ Maven Setup
 
 This project has a pom which will build the tool.
 
-You will need to download and install [.maven](http://maven.apache.org/download.html).
+You will need to download and install [maven](http://maven.apache.org/download.html).
 
 Once installed, you can build the project by going to the root of the project and entering the following command:
 
