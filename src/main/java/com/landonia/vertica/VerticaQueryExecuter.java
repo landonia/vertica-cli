@@ -310,7 +310,7 @@ public class VerticaQueryExecuter {
 	public static void main(String args[]) {
 		// Extract the connection string and start the test
 		if (args.length > 0) {
-			log.debug("Starting new Vertica test");
+			log.debug("Starting new Vertica CLI Connector");
 			VerticaQueryExecuter ve = new VerticaQueryExecuter(args[0]);
 			if (args.length > 1) {
 				// Set the username
