@@ -10,18 +10,18 @@ has to start streaming results immediately, which is very useful when dealing wi
 large result sets.
 
 Maven Setup
-===========
+------------
 
-This project has a provided pom which will build the tool.
+This project has a pom which will build the tool.
 
-You will need to download and install maven.
+You will need to download and install [.maven](http://maven.apache.org/download.html).
 
-Once installed, you can build the project by going to the root of the project and enter the following command:
+Once installed, you can build the project by going to the root of the project and entering the following command:
 
-mvn package
+	mvn package
 
 Once complete the required Jar will be available within the target folder.
 
-The run the tool you can run the following command:
+To run the tool you can enter the following command:
 
-java -jar target/vertica-cli-0.0.1-SNAPSHOT-jar-with-dependencies.jar <jdbc-url> <username> <password>
+	java -jar target/vertica-cli.jar <jdbc-url> <username> <password>
