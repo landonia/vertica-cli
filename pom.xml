@@ -63,8 +63,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         	<groupId>com.vertica</groupId>
         	<artifactId>vertica-jdbc</artifactId>
         	<version>4.1.14</version>
-    		<scope>system</scope>
-    		<systemPath>${project.basedir}/lib/vertica-jdbc-4.1.14.jar</systemPath>
     	</dependency>
     	<dependency>
       		<groupId>log4j</groupId>

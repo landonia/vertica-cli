@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
+import com.vertica.Driver;
 import com.vertica.PGConnection;
 
 /**
@@ -252,13 +253,15 @@ public class VerticaQueryExecuter {
 	private void printRow(ResultSet result, ResultSetMetaData meta, Scanner in,
 			PrintStream out) throws SQLException {
 		// Print out the row detail
+		int valueLength;
 		int numberOfColumns = meta.getColumnCount();
 		out.println();
 		out.print("| ");
 		for (int i = 1; i <= numberOfColumns; i++) {
 			String value = result.getString(i);
 			out.print(value);
-			for (int j = 0; j < meta.getColumnDisplaySize(i) - value.length(); j++) {
+			valueLength = value != null ? value.length() : 4;
+			for (int j = 0; j < meta.getColumnDisplaySize(i) - valueLength; j++) {
 				out.print(" ");
 			}
 			out.print("|");
