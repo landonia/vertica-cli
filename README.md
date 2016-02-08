@@ -30,3 +30,5 @@ Once complete the required Jar will be available within the target folder.
 To run the tool you can enter the following command:
 
 	java -jar target/vertica-cli.jar <jdbc-url> <username> <password>
+	
+Follow me on [Twitter @landotube](http://www.twitter.com/landotube)! Although I don't really tweet much tbh.
