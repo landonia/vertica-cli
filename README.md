@@ -31,4 +31,8 @@ To run the tool you can enter the following command:
 
 	java -jar target/vertica-cli.jar <jdbc-url> <username> <password>
 	
+## About
+
+simplegoconfiguration was written by [Landon Wainwright](http://www.landotube.com) | [GitHub](https://github.com/landonia). 
+
 Follow me on [Twitter @landotube](http://www.twitter.com/landotube)! Although I don't really tweet much tbh.
